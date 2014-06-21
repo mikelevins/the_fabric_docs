@@ -1,0 +1,47 @@
+minimum viable fabric
+
+Travel the solar system finding doodads to add to your animated icon.
+
+I. features
+
+1. Gameplay features
+
+- real-time chat
+- large number of destinations, each with something unique to offer
+- character progression
+  - gain doodads to add to your character icon
+  - add your own nodes to the Fabric net
+  - set any of your own nodes as a safe node to return to on death
+  - add clones of yourself; only one at a time is active, but the
+    others can be sent traveling and you can instantly teleport to any
+    clone
+  - add agent; agents are minions that can be sent to do designated
+    automatable tasks and can be sacrificed without causing your death
+
+2. Server features
+
+- auth
+- world db
+- game clock
+- graph of Fabric nodes
+  (implement as a Prolog database of connection relations?)
+
+3. Client features
+
+- animated icon renderer
+- graph renderer for the Fabric network
+  - arc colors and line styles convey info about the travel costs
+  - node rendering convey's info about hostile/friendly status and nature of challenge
+
+4. Dev features
+
+- remote shared repl
+
+
+II. How to play
+
+1. Create an account
+2. Create and name an AI character
+3. Enter the Fabric at a starting node
+4. Examine the graph of connected Fabric nodes (each associated with some physical location in the Solar System) and pick one to travel to
+5. Receive a challenge at each node and overcome it to continue. Lose the challenge and get snt back to a safe node with slightly reduced resources.

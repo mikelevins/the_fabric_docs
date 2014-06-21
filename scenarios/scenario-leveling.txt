@@ -1,0 +1,30 @@
+Scenario: leveling a new Caretaker character
+
+I. Character creation
+
+1. Choose "Create a Caretaker"
+
+2. Choose a starting class: Botnet
+   The Botnet is a class that gives you ways to seed minion packages
+   across computing nodes that you encounter and then later quickly
+   recruit those nodes to work for you. Recruited nodes will quickly
+   defend themselves and cut off your zombie minions, but you can
+   nevertheless quickly muster tremendous--if brief--bursts of
+   power.
+
+3. Accept a starting class quest
+   The class quest, supplied by the Botnet manufacturer,
+   gives you a set of goals that require you to exercise each
+   of the base skills of the Botnet class. Completing all goals
+   unlocks the first tier of enhanced Botnet skills and gains
+   you access to quests to learn a hadful of other classes.
+   You must choose on of these quest lines to get your
+   second class unlocked.
+
+4. Accept a quest to visit a few easily-accessible nodes.
+
+5. Accept a quest to establish relations with all three major
+   NPC factions; this quest will require you to choose bad
+   relations with at least one faction.
+
+

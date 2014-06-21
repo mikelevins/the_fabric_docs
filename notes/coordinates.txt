@@ -1,0 +1,55 @@
+A coordinate system for Solaria
+
+the diameter of solar system including the Kuiper Belt is roughly 100 AU.
+
+1AU = 149,597,871 km
+    = 149,597,871,000 m
+
+So 100 AU is roughly 14,959,787,100,000 m
+
+Making a small adjustment in order to obtain convenient quotients, we'll set Solaria's diameter to:
+
+  +solaria-diameter-in-meters+ = 14,862,734,272,440
+
+I want to use a single fixnum to count major grid lines in the
+coordinate system. The count of gridlines must therefore be less than
+or equal to most-positive-fixnum. In Lispworks, most-positive-fixnum
+is 536870911.
+
+Furthermore, I want a major gridline exactly on the origin, which is
+the center of the sun, and I want the edge of the disk to be at a
+whole number of major gridlines out from the center, for convenience
+in computing graphics. So, in order to give us a whole number quotient
+when dividing by two, I'll set the maximum coordinate value to (-
+most-positive-fixnum 1):
+
+  +maximum-coordinate-value+ = (- most-positive-fixnum 1) = 536,870,910 
+
+Each gridline marks a discrete distance from the center of the
+sun. Since there are +maximum-coordinate-value+ of them from one side
+of the solar system to the other, the unit of distance represented by
+the scale of the grid is:
+
+  (/ +solaria-diameter-in-meters+ +maximum-coordinate-value+)
+  = 27,684 m
+
+We will dub this unit of distance a Solar League:
+
+  1 Solar League (or sol) = 27,684 meters
+
+The diameter of the solar system is by definition 536,870,910 solar
+leagues.
+
+The radius of the solar system is by definition 268,435,455 solar
+leagues.
+
+A coordinate built on single-fixnum coordinates gives us a resolution
+of 1 sol--a resolution of about 28 km. For navigation on surfaces of
+planets and smaller bodies, we want a higher resolution.
+
+By subdividing a sol into 1 million microsols, we obtain a resolution
+of 0.027684 m, or 27.684 millimeters--roughly 1 1/32 inch.
+
+Dividing 1 microsol into one million picosols, we get a resolution of
+27.684 micrometers.
+

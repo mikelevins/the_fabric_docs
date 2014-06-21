@@ -1,0 +1,77 @@
+Combat Parameters
+
+Combat parameters are the variables that describe how combat abilities work.
+
+Target
+- Self
+- Single
+- Chain
+- AOE, Point-blank
+- AOE, Line
+- AOE, Cone
+- AOE, Sphere
+
+Target-selection
+- Auto
+- Single-select
+- Location
+
+Activation time
+- Instant
+- Timed
+
+Operation time
+- Instant
+- Timed
+
+Effect time
+- Instant
+- Delayed
+- Timed
+
+Effect type
+- Damage
+- Repair
+- Control
+- Reduction
+- Boost
+
+Effect amount
+- Number, 0 - infinity
+
+Effect class
+- Physical
+  - Mechanical
+  - Impact
+  - Heat
+  - Cold
+  - Fire
+  - Electrical
+  - Magnetic
+  - Electromagnetic
+  - Particle
+- Cyber
+  - Connectivity
+  - Bandwidth
+  - Computing
+  - Storage
+  - Node control
+
+Range
+- Point-blank (same node)
+- Close (connected nodes)
+- Long (nodes within 2 connections)
+- Remote (nodes farther than 2 connections away)
+
+Costs
+- Energy
+- Bandwidth
+- CPU cycles
+- Storage space
+- Heat
+- Credits
+- Authorization tokens
+- Time
+
+
+

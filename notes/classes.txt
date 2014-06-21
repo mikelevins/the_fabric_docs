@@ -1,0 +1,53 @@
+Classes are bundles of skill unlocks, each based on a small number of
+related mechanics and resources. We'' divide the available classes
+into a set of archetypes, related to the common patterns found in
+MMORPGs.
+
+I. Tank 
+   A. Load Balancer
+      High compute capacity and bandwidth enable the Load Balancer to
+      weather heavy attacks and keep pumping out attacks of its own.
+
+II. Healer
+   A. Hotplug 
+      The Hotplug provides retargetable compute capacity that can
+      be assigned to supplement a target unit, restoring capacity
+      that has been rendered inoprtable by attacks
+
+III. Rogue
+   A. Trojan
+      The Trojan disguises itself as an innocuous service, but when it
+      gains access to a target, spawns attack minions inside the
+      target's defenses. 
+
+IV. Mage
+   A. 
+      
+
+V. Ranger
+   A. Harrier
+      The Harrier directs one or two robust minions to engage its target
+      with direct attacks, then peppers the target with rapid attack messages
+      from a more distant node, relying on the minions to obscure
+      the Harrier's location and run interference while its messages wear down the 
+      target.
+
+VI. Shapeshifter
+   A. Chameleon
+      The Chameleon carries a handful of different attack profiles
+      resembling other archetypes. It can quickly shhift from one to
+      another. It opens with one, and if it meets a successful
+      resistance, shifts to another. Because it devotes resources to
+      multiple attack profiles, each one cannot have the same depth of
+      resources or strategies that a single-profile class can.
+
+VII. Summoner
+   A. Botnet
+      The Botnet can rapidly recruit resources from many nodes that
+      it has previously seeded to instantly create zombie networks of
+      minions. These nets are temporary, lasting only until the
+      compromised hosts repair themselves, but can nevertheless produce
+      brief bursts of tremendouns power.
+
+VIII. Engineer
+

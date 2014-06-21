@@ -1,0 +1,38 @@
+pzmq is a library in quicklisp that provides Common Lisp bindings for zeromq 3.x.
+
+Although it depends on an external library, it only needs the one
+binary library file (libzmq), and looks promising.
+
+We need libzmq to be built 64-bit to work with the ccl64 server, or
+else we must use ccl32 for the server. We need it to be built 32-bit
+to work with Lispworks, since I don't have a 64-bit Lispworks
+license. My solution for running both client and server locally was to
+use Homebrew to install zeromq like this:
+
+    brew install zeromq --universal
+
+the following enables pzmq to load without incident in CCL; 
+
+(ql:quickload :cffi)
+(ql:quickload :cffi-grovel)
+(setf cffi-grovel::*cc-flags* (append '("-I" "/usr/local/include") cffi-grovel::*cc-flags*))
+(setf cffi:*foreign-library-directories* (cons "/usr/local/lib" cffi:*foreign-library-directories*))
+
+in addition, for Lispworks:
+Lispworks is unable to find the library file. However, if I force it to load the library
+image by hand in the breakloop, and if zeromq has been built as a universal binary
+so that it has 32-bit code in it, then Lispworks loads pzmq and runs its tests without
+complaint.
+
+Presumably, if I decide to use zeromq, I can work around this by
+setting variables in my build code and by packaging the zeromq library
+image in the Lispworks delivered app, as per Lispworks delivery docs.
+
+(ql:quickload :pzmq)
+(asdf:oos 'asdf:load-op :pzmq-test)
+
+A quick test showed that I was able to easily and reliably sned small
+text messages from a Lispworks client to a ccl server using pzmq.
+
+
+

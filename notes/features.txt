@@ -1,0 +1,106 @@
+The Fabric: Features Overview
+
+I. Classes and skills
+
+- Buffet-style freeform skill system
+- Classes are bundles of skills
+- Lots and lots of classes; you can learn more than one
+- Most classes are discovered by exploration or research
+- A class comes with only base skills unlocked
+- Playing the game unlocks more advanced class skills
+- Skills are built from a library of primitives
+- Players can build their own skills and classes from primitives
+- The repetitive part of skill-raising can be scheduled while you are offline
+- You can be amazing with a few skills, or good at a bunch, or mediocre at everything
+- You can combine classes by learning more than one
+- Limited action bar--players must choose a limited set of equipped abilities
+- Some classes and skills can be traded
+
+II. Character progression
+
+- Progression is gaining classes, skills, wealth, power, minions, contracts, and property
+- Classes are bundles of skills
+- Classes can be gained as loot or purchased from certain vendors
+- There are no levels; just unlocks
+- Wealth is computing resources, storage capacity, and network bandwidth; you can craft it
+- Power is the ability to command minions and influence allies; you can gain it from gameplay and from allying with other players
+- Minions are NPCs under your control
+- Contracts are committments to provide resources and support
+- Properties are objects in the game world that you can own--computing nodes, factories, space stations, ships, and so on
+
+III. Questing
+
+- Numerous long quest lines
+- Numerous quest hubs
+- Quest dialogs offer choices that can affect alignment
+- Quests are dynamically generated in-game
+- No two characters will experience the same sequence of quests
+- Guilds can earn the ability to offer quests
+
+IV. PVP
+
+- Three factions for PVP
+- Alignment determines which of the three factions are friendly to you
+- You can (slowly) change your alignment
+- If your alignment to a faction is strong, you gain benefits from that faction
+- If your alignment to a faction is strong, you lose benefits from other factions
+- Increasing your resources is an important part of progression
+- All players are attackable
+- Attacking enemies in low-security zones carries no penalties, and grants rewards
+- Attacking anyone in high-security zones is impossible
+- Attacking friendlies anywhere carries severe penalties
+- Players, guilds, and factions can claim ownership of places
+- Players, guilds, and factions can content ownership through combat
+- Owned places can set their own security status and rules
+- Some essential resources are owned by NPC factions and cannot be captured
+- Other economic resources can be captured and exploited by players
+
+V. Game World
+
+- You inhabit a gigantic computer network that covers the whole Solar System
+- Many thousands of destinations with full freedom of movement, but no guarantee of safety
+- Places in the network correspond to places in the real Solar System
+- At some nodes you can see and interact with the physical world
+- Distinct PVP & PVE zones spread through the world
+- You travel by transmitting yourself to a connected node
+- Not all node are connected to each other; you can only travel to a connected node
+- You can build your own nodes to make travel easier and faster
+- Instead of transmitting, you can clone yourself, but you don't automatically control the clone; you have to recruit it
+- You can instantly jump to any clone of yourself, as long as it's been recruited
+
+VI. Gathering, crafting, and economy
+
+- Minions perform gathering and crafting for you
+- You can craft wealth
+- Each NPC faction maintains a trade network (an auction house)
+- Groups of player guilds can set up trade networks
+- You can trade with any trade network that isn't hostile to you
+
+VII. Minions and pets
+
+- You can recruit and command NPCs
+- Your minions and pets have their own classes and skills
+- The number of minions you can command is limited by a resource that you earn by playing
+- If you have too many minions, they can betray you
+- A character resource determines how many minions you can safely command
+- You can increase your command resource through gameplay
+
+VIII. Social 
+
+- You can earn Power through gameplay and by making alliances with other players
+- You and other players can form guilds
+- Guilds grant all members more power
+- Guilds can increase their power through gameplay
+
+IX. NPC Factions
+
+- There are three factions: Caretakers, Abjurers, and Rogues
+- Caretakers are the winners of an AI war. They are the legal authorities. They protect the human civilization against hostile AIs.
+- Abjurers are the losing faction. They want to convert all matter to computing nodes, and screw the humans.
+- Rogues aren't aligned with the Caretakers or Abjurers, and band together for self defense.
+- The Caretakers have the most power. The Abjurers are the deadliest. The Rogues are the most flexible.
+- Players may align with any faction, and may slowly change alignment through gameplay.
+- Players aligned with a faction gain benefits and bonuses from that faction
+- Players may achieve neutrality toward all three NPC factions, and trade with all three
+- Neutral players receive no faction benefits or bonuses
+
