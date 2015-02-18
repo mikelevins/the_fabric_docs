@@ -146,12 +146,42 @@ init-config-local.scm in the case of local operation. Changing a
 single line of code in the client build controls whether it operates
 in local or remote mode.
 
-The primary advantge of running in local mode is that a developer can
+The primary advantage of running in local mode is that a developer can
 run the client and server in the same Emacs session, enabling easy
 debugging and the ability to inspect the internal states of both
 client and server at the same time.
 
-## Interactive development of client and server
+When the server starts up it creates one or more instances of
+com.jme3.network.Server, which await client connections.
+
+When a client starts up and a player attempts any action that requires
+communication with the server--such as a login, selection of creation
+of a character, or interaction with something in the game world, the
+client first ensures that a suitable instance of
+com.jme3.network.Client exists and that it has a working connection to
+the server. It then constructs a message that encapsulates the
+client's interaction with the server and sends the message to the
+server's network listener, an instance of com.jme3.network.Server.
+
+Messages that arrive from a client at the server are examined by the
+network listener and passed to a suitable **message
+handler**. Different types of messages are passed to different
+handlers--chat messages to chat handlers; login messages to auth
+handlers; position updates to gameplay handlers; and so on.
+
+The server-side handlers process the incoming messages, post changes
+to the state of the running game world if appropriate, and broadcast
+the results of any changes back to connected clients.
+
+A mirror of the same process occurs on the client side when the server
+broadcasts its update messages. The server constructs the appropriate
+kind of update message and broadcasts it to all relevant clients. Each
+client receives the message on a client listener, examines the
+message, and dispatches it to the appropriate handler. Like the
+server's message handlers, the client's handlers then process the
+messages, and update the state of the client acccordingly.
+
+## Interactive development of client and server 
 
 The normal mode of development is to work in an Emacs session with a
 running Kawa repl with the Fabric library jars loaded. In this mode of
