@@ -1,0 +1,80 @@
+This is a quick reference for us to use while working on implementing the skills provided by the starting gear.
+
+I've laid them out as if the weapon abilities go on keys 1-4, the augments on 5-8, and the armors on 9-=. I do not intend to restrict the buttons abilities can be on the way GW2 does; I prefer the TSW approach of letting you put the skills on the buttons however you like. However,  while we're working on these abilities I'l talk about the keys as if this is the way the abilities are assigned, just for the sake of simplicity. Also, I do intend to give just four abilities to each starting gear item, though I don't necessarily intend to observe that limit on later progression gear.
+
+Weapons
+- Cannon
+ 1. Blast: do direct damage at long range and push the opponent back
+ 2. Volley: fires a burst of bolts at all enemies in a cone, dealing direct damage and having a chance to briefly stun
+ 3. Arclight: fires a continuous beam that deals damage and transfers heat from you to the target
+ 4. Smart bullet: fires a projectile that homes in on its target and explodes, dealing direct damage and knocking the target in a random direction
+
+- Impulse
+ 1. Pulse: do direct damage to all enemies in melee range
+ 2. Burst: do direct damage to all enemies in melee range and briefly stun them
+ 3. Blastwave: Creates a shockwave of heat that briefly silences foes and transfers heat to them
+ 4. Spark: instantly direct damage on contact with a target
+
+- Malware
+ 1. Virus: afflict target at range with a DOT that also drains energy, transferring it to the caster
+ 2. Tangle: afflict the target with a snare that slows and deals damage over time if the target moves
+ 3. Tarpit: afflicts the target with a process that reduces available cycles by 20% and increases heat production by 20%
+ 4. Drain: creates a channel to an enemy that drains power and health into the caster
+
+- Bots
+ 1. Seed: shoots a projectile that turns into a bot that slows inflicts direct damage and attempts to construct copies of itself, draining the foe's power in the process
+ 2. Guardian: toggles an Impulse-wielding bot to defend you; the Guardian is under your control
+ 3. Gnats: summons a cloud of tiny minions that orbit the target, dumping heat into them and reflecting a small percentage of all their outgoing damage back to them
+ 4. Jaegers: summons three small, fast minions that attack with impulse weapons
+
+
+Augments
+- Force fields
+ 5. Mirror: erects a barrier for a short time that reflects all incoming attacks
+ 6. Shell: manifests a spherical barrier that converts 20% of all incoming damage to heat until the accumulated heat causes the shell to burst
+ 7. Quarantine: creates a force field around a target that briefly prevents any damage from getting out, converting a fraction of it into heat in the foe
+ 8. Warp: creates a local warp in spacetime that pulls enemies into it, trapping them there until the warp dissipates
+
+- Optics
+ 5. Vanish: briefly makes the caster invisible and increases movement speed
+ 6. Kaleidoscope: summons six images of yourself that imitate all your actions (but deal no damage)
+ 7. Fireworks: summons a swarm of optical mines that explode on contact, dealing direct damage, setting fires for damage and heat over time, or briefly stunning; the mines can be detonated harmlessly by damage dealt to them at a distance
+ 8. Flash: blinds enemies in the target area, interrupting movement and ability activation, and preventing them from targeting anything for a few seconds
+
+- Portals
+ 5. Shunt: places one end of a portal; the caster can then place the other end elsewhere and gain a portal between the two spots for a short time
+ 6. Sidetrack: opens a portal that teleports an enemy a modest distance in a random direction
+ 7. Haze: creates a shimmering curtain of heat that reduces enemies' hit chance and reflects a percentage of their attacks back on them as heat
+ 8. Blink: instantly teleports the caster twenty meters forward
+
+- Turrets
+ 5. Netcaster: creates a turret that periodically sweeps a sphere with nets of light that snare foes and cancel stealth
+ 6. Fury: creates a turret that locks onto an enemy and peppers it with cannon fire
+ 7. Photosphere: creates a turret that heats all enemies within a sphere
+ 8. Vortex: creates a turret that pulls enemies toward it; if an enemy makes contact it explodes, dealing direct damage in a sphere
+
+Armor
+- Absorb
+  9. Blunt: converts 30% of the next three incoming attacks to heat instead of damage 
+10. Bunker: briefly encases the caster in an impenetrable shell; while bunkered, the caster is unable to use abilities; the bunker converts 100% of incoming damage to heat
+ -. Thermal Sink: Quickly cools the caster; costs power
+ =. Bolster: temporarily increases the target's thermal capacity and damage mitigation
+
+- Regenerate
+  9. Fervor: converts 30% of the next three incoming attacks to heals-over-time, shared with nearby allies
+10. Soothe: places a shield on a target that converts 20% of incoming damage to healing
+ -. Regenerator: activates a temporary effect that converts heat into healing, cooling and healing the target
+ =. Infuse: fires a projectile that stacks a heal over time on a friendly target or reduced healing on an enemy
+
+- Power
+  9. Generation: converts 10% of damage from the next five incoming attacks is converted to energy; when energy is full, converts to power; when power is full, converts to heat
+10. Toggle: when engaged, boosts all ability effects by 5%, but increases their heat generation by 10%
+ -. For a short time converts heat to power, increasing the target's power and cooling it
+ =.Briefly boosts power and all ability effects by 15%; consumes significant Energy; all affected abilities produce extra heat for the duration 
+
+- Energy
+  9. Overcharge: 10% of damage taken from the next five attacks is converted 25% Haste, stacking duration up to ten seconds
+10. Flicker: move at double speed for a few seconds; when equipped grants bonus movement speed proportional to total energy
+ -. Superconductor: Instantly reduces heat and temporarily reduces all activation times by a significant percentage; costs Power
+ =. Dynamo: toggles an effect that causes a small percentage of all power expended and all healing or damage dealt to generate extra energy
+
